@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467.606 120.791">
+  <defs>
+    <style>
+      @font-face {
+          font-family: Montserrat-Medium;
+          src: url('../font/Montserrat-Medium.ttf') format("ttf");
+      }
+      @font-face {
+          font-family: Montserrat-SemiBold;
+          src: url('../font/Montserrat-SemiBold.ttf') format("ttf");
+      }
+      @font-face {
+          font-family: Montserrat-Regular;
+          src: url('../font/Montserrat-Regular.ttf') format("ttf");
+      }
+      @font-face {
+          font-family: Montserrat-Italic;
+          src: url('../font/Montserrat-Italic.ttf') format("ttf");
+      }
+      @font-face {
+          font-family: Montserrat-BoldItalic;
+          src: url('../font/Montserrat-BoldItalic.ttf') format("ttf");
+      }
+      @font-face {
+          font-family: Montserrat-Bold;
+          src: url('../font/Montserrat-Bold.ttf') format("ttf");
+      }
+      .cls-1 {
+        fill: #5173db;
+        font-size: 69px;
+        font-family: Montserrat-BoldItalic;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Montserrat-Regular;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .cls-3 {
+        font-size: 35px;
+        font-family: Montserrat-SemiBold;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        fill: #1d1d1d;
+      }
+
+      .cls-6 {
+        fill: #231f20;
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Groupe_16" data-name="Groupe 16" transform="translate(-426.827 -246)">
+    <text id="SPACEXD" class="cls-1" transform="translate(552.434 313)"><tspan x="0" y="0">SPACE</tspan><tspan class="cls-2" y="0">XD</tspan></text>
+    <text id="Welcome_to_space" data-name="Welcome to space" class="cls-3" transform="translate(551 356.182)"><tspan x="0" y="0">Welcome to space</tspan></text>
+    <g id="Fichier_3" data-name="Fichier 3" transform="translate(428.241 256.655)">
+      <g id="Calque_1" data-name="Calque 1" transform="translate(6.455 19.928)">
+        <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-4" cx="34.995" cy="34.995" r="34.995" transform="translate(4.374 4.374)"/>
+        <path id="Tracé_1" data-name="Tracé 1" class="cls-5" d="M53.939,37.909A30.621,30.621,0,1,1,23.319,68.529,30.621,30.621,0,0,1,53.939,37.909m0-8.749A39.369,39.369,0,1,0,93.309,68.529,39.369,39.369,0,0,0,53.939,29.16Z" transform="translate(-14.57 -29.16)"/>
+        <path id="Tracé_2" data-name="Tracé 2" class="cls-5" d="M41.24,101.235A32.107,32.107,0,1,0,86.647,55.829Z" transform="translate(-24.574 -39.163)"/>
+      </g>
+      <g id="Calque_2" data-name="Calque 2" transform="translate(0 0)">
+        <line id="Ligne_5" data-name="Ligne 5" class="cls-6" y1="44.044" x2="44.05" transform="translate(52.086 14.298)"/>
+        <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-5" width="62.297" height="7.499" transform="translate(49.434 53.981) rotate(-45)"/>
+        <line id="Ligne_6" data-name="Ligne 6" class="cls-6" y1="44.05" x2="44.05" transform="translate(9.48 56.904)"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-5" width="62.297" height="7.499" transform="translate(6.828 96.588) rotate(-45)"/>
+        <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-5" cx="12.592" cy="12.592" r="12.592" transform="translate(83.544)"/>
+        <line id="Ligne_7" data-name="Ligne 7" class="cls-7" x2="18.953" y2="18.953" transform="translate(0 89.768)"/>
+        <path id="Tracé_3" data-name="Tracé 3" class="cls-5" d="M54.215,61.6,48.36,67.455,50.5,75.448l8,2.143,5.855-5.855-2.143-7.993Z" transform="translate(-20.789 -21.4)"/>
+      </g>
+    </g>
+  </g>
+</svg>

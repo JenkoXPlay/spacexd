@@ -1,1 +1,83 @@
 /* CSS Général du site */
+
+/*
+    Police utilisées :
+    - medium
+    - semi-bold
+    - regular
+    - italic
+    - bold
+*/
+
+/*
+    Code couleur :
+    - Bleu : #4490df
+    - Blanc : #fff
+    - Gris : #414141
+    - Orange : #df6944
+*/
+
+@font-face {
+    font-family: Montserrat Medium;
+    src: url('../font/Montserrat-Medium.ttf') format("ttf");
+}
+@font-face {
+    font-family: Montserrat SemiBold;
+    src: url('../font/Montserrat-SemiBold.ttf') format("ttf");
+}
+@font-face {
+    font-family: Montserrat Regular;
+    src: url('../font/Montserrat-Regular.ttf') format("ttf");
+}
+@font-face {
+    font-family: Montserrat Italic;
+    src: url('../font/Montserrat-Italic.ttf') format("ttf");
+}
+@font-face {
+    font-family: Montserrat BoldItalic;
+    src: url('../font/Montserrat-BoldItalic.ttf') format("ttf");
+}
+@font-face {
+    font-family: Montserrat Bold;
+    src: url('../font/Montserrat-Bold.ttf') format("ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.loader {
+    z-index: 100;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: url('../img/background.png') no-repeat center;
+    background-size: 100%;
+}
+.loader .container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat BoldItalic;
+    color: #fff;
+}
+.ProgressBar {
+    margin-top: 20px;
+}
+.ProgressBar #myProgress {
+    width: 80%;
+    background-color: #414141;
+    display: inline-block;
+}
+.ProgressBar #myBar {
+    width: 1%;
+    height: 3px;
+    background-color: #4490df;
+}
+.ProgressBar #percent {
+    margin-left: 5px;
+    display: inline-block;
+    font-family: Montserrat SemiItalic;
+}
