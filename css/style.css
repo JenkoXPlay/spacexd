@@ -90,13 +90,85 @@ body {
     position: fixed;
     color: #fff;
     height: 80px;
-    line-height: 80px;
-    background: #4490df;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header .logo {
-    height: 80%;
-    left : 0;
-    margin-left: 2%;
-    top: 50%;
-    transform: translateZ(-50%);
+    height: 60%;
+    margin-left: 20px;
+}
+
+.header .btn_menu img {
+    margin-right: 20px;
+    height: 30px;
+}
+
+.menu {
+    z-index: 100;
+    position: fixed;
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    color: #414141;
+}
+.menu .menu_header {
+    width: 100%;
+    color: #414141;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .menu_header .logo {
+    height: 60%;
+    margin-left: 20px;
+}
+.menu .menu_header img {
+    margin-right: 20px;
+    height: 30px;
+}
+.menu .content {
+    width: 100%;
+    text-align: center;
+    color: #414141;
+    margin-top: 40px;
+}
+.menu .content input[type=text] {
+    width: 70%;
+    border-radius: 2px;
+    border: 1px #4490df solid;
+    padding: 10px;
+    font-size: 1.6em;
+}
+.menu .content a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat SemiBold';
+    color: #414141;
+    font-size: 1.8em;
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 10px 15%;
+    margin-top: 20px;
+}
+.menu .content a:hover, a:active {
+    color: #414141;
+    border-left: 10px #4490df solid;
+}
+
+.menu .footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu .footer img {
+    width: 20px;
+    height: auto;
 }
