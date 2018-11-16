@@ -9,3 +9,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
+
+    <div class="header">
+        <img src="./img/space_xd_white.png" class="logo" />
+    </div>

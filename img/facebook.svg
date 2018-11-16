@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.535 19.535">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2b2b2b;
+      }
+    </style>
+  </defs>
+  <g id="facebook_2_" data-name="facebook (2)" transform="translate(19.535) rotate(90)">
+    <g id="Groupe_6" data-name="Groupe 6" transform="translate(0 0)">
+      <path id="Tracé_4" data-name="Tracé 4" class="cls-1" d="M17.093,0H2.442A2.444,2.444,0,0,0,0,2.442V17.093a2.444,2.444,0,0,0,2.442,2.442H9.768V12.82H7.326V9.768H9.768V7.326a3.663,3.663,0,0,1,3.663-3.663h2.442V6.715H14.652c-.674,0-1.221-.063-1.221.61V9.768h3.052L15.262,12.82H13.431v6.715h3.663a2.444,2.444,0,0,0,2.442-2.442V2.442A2.444,2.444,0,0,0,17.093,0Z" transform="translate(0 19.535) rotate(-90)"/>
+    </g>
+  </g>
+</svg>

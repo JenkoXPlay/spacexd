@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.921 54.918">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.142 110.136">
   <defs>
     <style>
       .cls-1 {
-        fill: #050505;
+        fill: #1d1d1d;
       }
 
       .cls-2 {
@@ -21,20 +21,20 @@
       }
     </style>
   </defs>
-  <g id="Fichier_3" data-name="Fichier 3" transform="translate(-2.826 1)">
-    <g id="Calque_1" data-name="Calque 1" transform="translate(7.417 8.807)">
-      <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-1" cx="17.222" cy="17.222" r="17.222" transform="translate(2.153 2.153)"/>
-      <path id="Tracé_1" data-name="Tracé 1" class="cls-2" d="M33.944,33.465A15.069,15.069,0,1,1,18.875,48.534,15.069,15.069,0,0,1,33.944,33.465m0-4.305A19.374,19.374,0,1,0,53.319,48.534,19.374,19.374,0,0,0,33.944,29.16Z" transform="translate(-14.57 -29.16)"/>
-      <path id="Tracé_2" data-name="Tracé 2" class="cls-2" d="M41.24,78.174A15.8,15.8,0,1,0,63.586,55.829Z" transform="translate(-33.038 -47.627)"/>
+  <g id="logo_icon" transform="translate(1.414)">
+    <g id="Calque_1" data-name="Calque 1" transform="translate(6.455 19.928)">
+      <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-1" cx="34.995" cy="34.995" r="34.995" transform="translate(4.374 4.374)"/>
+      <path id="Tracé_1" data-name="Tracé 1" class="cls-2" d="M53.939,37.909A30.621,30.621,0,1,1,23.319,68.529,30.621,30.621,0,0,1,53.939,37.909m0-8.749A39.369,39.369,0,1,0,93.309,68.529,39.369,39.369,0,0,0,53.939,29.16Z" transform="translate(-14.57 -29.16)"/>
+      <path id="Tracé_2" data-name="Tracé 2" class="cls-2" d="M41.24,101.235A32.107,32.107,0,1,0,86.647,55.829Z" transform="translate(-24.574 -39.163)"/>
     </g>
-    <g id="Calque_2" data-name="Calque 2" transform="translate(4.24 -1)">
-      <line id="Ligne_5" data-name="Ligne 5" class="cls-3" y1="21.675" x2="21.678" transform="translate(25.633 7.036)"/>
-      <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-2" width="30.658" height="3.69" transform="translate(24.328 26.565) rotate(-45)"/>
-      <line id="Ligne_6" data-name="Ligne 6" class="cls-3" y1="21.678" x2="21.678" transform="translate(4.665 28.004)"/>
-      <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-2" width="30.658" height="3.69" transform="translate(3.36 47.533) rotate(-45)"/>
-      <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-2" cx="6.197" cy="6.197" r="6.197" transform="translate(41.114)"/>
-      <line id="Ligne_7" data-name="Ligne 7" class="cls-4" x2="9.327" y2="9.327" transform="translate(0 44.177)"/>
-      <path id="Tracé_3" data-name="Tracé 3" class="cls-2" d="M51.242,61.6,48.36,64.482l1.055,3.933,3.936,1.055,2.882-2.882-1.055-3.933Z" transform="translate(-34.792 -41.817)"/>
+    <g id="Calque_2" data-name="Calque 2" transform="translate(0 0)">
+      <line id="Ligne_5" data-name="Ligne 5" class="cls-3" y1="44.044" x2="44.05" transform="translate(52.086 14.298)"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-2" width="62.297" height="7.499" transform="translate(49.434 53.981) rotate(-45)"/>
+      <line id="Ligne_6" data-name="Ligne 6" class="cls-3" y1="44.05" x2="44.05" transform="translate(9.48 56.904)"/>
+      <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-2" width="62.297" height="7.499" transform="translate(6.828 96.588) rotate(-45)"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-2" cx="12.592" cy="12.592" r="12.592" transform="translate(83.544)"/>
+      <line id="Ligne_7" data-name="Ligne 7" class="cls-4" x2="18.953" y2="18.953" transform="translate(0 89.768)"/>
+      <path id="Tracé_3" data-name="Tracé 3" class="cls-2" d="M54.215,61.6,48.36,67.455,50.5,75.448l8,2.143,5.855-5.855-2.143-7.993Z" transform="translate(-20.789 -21.4)"/>
     </g>
   </g>
 </svg>
