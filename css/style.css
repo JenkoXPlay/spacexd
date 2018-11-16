@@ -100,3 +100,61 @@ body {
     top: 50%;
     transform: translateZ(-50%);
 }
+
+.content{
+    padding-top:110px;
+    color:white;
+}
+
+.title{
+    font-family: 'Montserrat SemiBold';
+    font-size: 23pt;
+    margin-left:30px;
+    display: inline;
+}
+
+.img{
+    width: 80%;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+}
+
+.text{
+    font-family: "Montserrat Italic";
+    color:#8E8E8F;
+    margin: 30px 30px 0px 30px;
+}
+
+.txt_1{
+    font-size:13pt;
+}
+
+.txt_2{
+    float:right;
+    font-size: 12pt;
+}
+
+.links{
+    display:flex;
+    clear:both;
+    margin: 0px 30px 0px 30px;
+    font-size: 12pt;
+}
+
+.subtitle{
+    font-family: "Montserrat SemiBold";
+    color: #8D8D8D;
+}
+
+.meet_our_team a{
+    font-family: "MontSerrat Regular";
+    color:white;
+}
+
+.our_biggest_project a{
+    font-family: "MontSerrat Regular";
+    color:#3D9DE1;
+}
