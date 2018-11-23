@@ -7,7 +7,7 @@ $(document).ready(function(){
         var id = setInterval(frame, 20);
         function frame() {
             if(width == 100) {
-                window.location.replace("./home.php");
+                window.location.replace("./page.php?page=home.php");
             }
             if (width >= 100) {
                 clearInterval(id);

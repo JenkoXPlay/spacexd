@@ -101,7 +101,7 @@ body {
 
 .header .btn_menu img {
     margin-right: 20px;
-    height: 30px;
+    height: 25px;
 }
 
 .menu {
@@ -133,7 +133,7 @@ body {
     width: 100%;
     text-align: center;
     color: #414141;
-    margin-top: 40px;
+    margin-top: 20px;
     
 }
 .menu .content input[type=text] {
@@ -148,7 +148,7 @@ body {
     text-transform: uppercase;
     font-family: 'Montserrat SemiBold';
     color: #414141;
-    font-size: 1.8em;
+    font-size: 15pt;
     width: 100%;
     text-align: left;
     display: block;
@@ -157,6 +157,10 @@ body {
     margin-top: 20px;
 }
 .menu .content a:hover, a:active {
+    color: #414141;
+    border-left: 10px #4490df solid;
+}
+.menu .content .activeURL {
     color: #414141;
     border-left: 10px #4490df solid;
 }

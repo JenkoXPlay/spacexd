@@ -1,3 +1,7 @@
+<?php
+    // On récupère l'URL pour vérifier de quelle URL il s'agit
+    $currentPage = filter_input(INPUT_GET, 'page');
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -26,7 +30,7 @@
         </div>
         <div class="content">
             <input type="text" name="search" placeholder="Recherche" />
-            <a href="./home.php">Home</a>
+            <a href="./home.php" class="<?php if($currentPage == "home.php"){echo 'activeURL';} ?>">Home</a>
             <a href="">What we do</a>
             <a href="">Project_mars</a>
             <a href="">Events</a>
@@ -51,6 +55,6 @@
             btn_menu_close.click(function() {
                 menu.hide();
             });
-
+            
         });
     </script>
