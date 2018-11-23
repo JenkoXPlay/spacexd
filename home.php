@@ -6,7 +6,7 @@
 
         <img class="img" src="img/img.svg"/>
 
-        <div class="text">
+        <div class="text text_home">
         <p class=txt_1>"We do everything to discover space secrets"</p>
         <p class=txt_2>SpaceXD CEO</p>
         </div>
