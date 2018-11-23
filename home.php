@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-    <div class="content">
+    <div class="contentGlobal">
 
         <h3 class="title">Welcome to space</h3>
 
