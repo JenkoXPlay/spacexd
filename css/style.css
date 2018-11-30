@@ -17,34 +17,15 @@
     - Orange : #df6944
 */
 
-@font-face {
-    font-family: Montserrat Medium;
-    src: url('../font/Montserrat-Medium.ttf') format("ttf");
-}
-@font-face {
-    font-family: Montserrat SemiBold;
-    src: url('../font/Montserrat-SemiBold.ttf') format("ttf");
-}
-@font-face {
-    font-family: Montserrat Regular;
-    src: url('../font/Montserrat-Regular.ttf') format("ttf");
-}
-@font-face {
-    font-family: Montserrat Italic;
-    src: url('../font/Montserrat-Italic.ttf') format("ttf");
-}
-@font-face {
-    font-family: Montserrat BoldItalic;
-    src: url('../font/Montserrat-BoldItalic.ttf') format("ttf");
-}
-@font-face {
-    font-family: Montserrat Bold;
-    src: url('../font/Montserrat-Bold.ttf') format("ttf");
-}
 
-body {
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body{
     background: url('../img/background.png') center;
 }
 
@@ -133,7 +114,6 @@ body {
     width: 100%;
     text-align: center;
     color: #414141;
-    margin-top: 40px;
     
 }
 .menu .content input[type=text] {
@@ -177,7 +157,7 @@ body {
     min-height: 100vh; 
     width: 100%;  
     background: url('../img/background.jpg') no-repeat center;
-    background-size: 100%;
+    background-size: 110%;
 }
 
 .contentGlobal {
@@ -215,18 +195,22 @@ body {
 }
 
 .text_title{
-    font-family: "Montserrat Medium";
+    font-family: "Montserrat SemiBold";
+    margin-bottom: 10px;
 }
 
 .txt_1{
-    font-size:13pt;
+    font-family: "Montserrat";
+    font-style:italic;
+    font-size:10pt;
     margin: 30px 0px 0px 0px;
 }
 
 .txt_2{
+    font-family: "Montserrat";
     float:right;
-    font-size: 12pt;
-    margin: 0px 0px 20px 0px;
+    font-size: 10pt;
+    margin-bottom: 30px;
 }
 
 .links{
@@ -240,6 +224,7 @@ body {
 .subtitle{
     font-family: "Montserrat SemiBold";
     color: #8D8D8D;
+    margin-bottom: 25px;
 }
 
 .meet_our_team a{
@@ -255,4 +240,61 @@ body {
 
 .meet_our_team a:last-child{
     margin-top:10px;
+}
+
+.text_mars{
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: "Montserrat";
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.text_content_mars{
+    font-size:12px;
+}
+
+.text_sign_mars{
+    font-family: "Montserrat";
+    font-style: italic;
+    float: right;
+    font-size: 12px;
+}
+
+.ticket_mars{
+    display:flex;
+    background-color: #1E1E1E;
+    margin: 30px;
+    padding:10px;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.title_ticket_mars{
+    font-family: "Montserrat";
+    font-weight: 700;
+    margin-bottom:10px;
+
+}
+
+.button_ticket_mars{
+    display: inline-block;
+    font-family: "Montserrat";
+    border: 1px solid white;
+    color:white;
+    padding: 8px 20px;
+    font-size: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.button_ticket_mars:hover {
+    background-color: white;
+  	color: black;
+}
+
+.img_ticket_mars{
+    width: 60px;
 }
