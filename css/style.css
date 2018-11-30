@@ -177,6 +177,10 @@ body {
     height: auto;
 }
 
+.verticalBar {
+    display: none;
+}
+
 .contentGlobal {
     padding-top:110px;
     color:white;
@@ -196,6 +200,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     height:auto;
+}
+.imgPC {
+    display: none;
 }
 
 .text{
@@ -228,9 +235,11 @@ body {
 .meet_our_team a{
     font-family: "MontSerrat Regular";
     color:white;
+    display: block;
 }
 
 .our_biggest_project a{
     font-family: "MontSerrat Regular";
     color:#3D9DE1;
+    display: block;
 }

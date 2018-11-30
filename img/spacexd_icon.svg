@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 189 47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 38px;
+        font-family: Montserrat-BoldItalic, Montserrat;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      .cls-2 {
+        font-family: Montserrat-Regular, Montserrat;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </defs>
+  <text id="SPACEXD" class="cls-1" transform="translate(1 37)"><tspan x="0" y="0">SPACE</tspan><tspan class="cls-2" y="0">XD</tspan></text>
+</svg>
