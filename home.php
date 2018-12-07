@@ -6,9 +6,9 @@
 
         <img class="img" src="img/img.svg"/>
 
-        <div class="text text_home">
-        <p class=txt_1>"We do everything to discover space secrets"</p>
-        <p class=txt_2>SpaceXD CEO</p>
+        <div class="text">
+            <p class=txt_1>"We do everything to discover space secrets"</p>
+            <p class=txt_2>SpaceXD CEO</p>
         </div>
         
         <div class="links">
@@ -23,12 +23,9 @@
                 <a href="">Project_Mars</a>
             </div>
         </div>
+    
+        <img class="imgPC" src="img/img.svg"/>
 
     </div>
-
-
-
-
-
 
 <?php include('footer.php'); ?>

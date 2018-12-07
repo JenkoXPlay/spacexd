@@ -1,0 +1,3 @@
+RewriteEngine on
+
+Rewrite  ^(.*).php$ page.php?page=$1 [QSA]
