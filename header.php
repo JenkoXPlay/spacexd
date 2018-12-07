@@ -11,6 +11,7 @@
     <title>Space XD</title>
     <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/style.css" />
     <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/style_pc.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -34,7 +35,7 @@
                 <input type="text" name="search" placeholder="Recherche" />
                 <a href="./home.php" class="<?php if($currentPage == "home.php"){echo 'activeURL';} ?>">Home</a>
                 <a href="">What we do</a>
-                <a href="">Project_mars</a>
+                <a href="./mars.php">Project_mars</a>
                 <a href="">Events</a>
                 <a href="">Contact</a>
             </div>
