@@ -68,6 +68,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: url('../img/background.png') no-repeat center;
 }
 .header .logo {
     height: 60%;
@@ -87,6 +88,10 @@ body {
     width: 100%;
     color: #414141;
     overflow: auto;
+    display: none;
+}
+.menu.menuOpen {
+    display: block;
 }
 .menu .menu_header {
     width: 100%;
