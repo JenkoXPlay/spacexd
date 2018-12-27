@@ -169,6 +169,13 @@ body{
     display: none;
 }
 
+.bgGlobal{ 
+    min-height: 100vh; 
+    width: 100%;  
+    background: url('../img/background.jpg') no-repeat center;
+    background-size: 110%;
+}
+
 .contentGlobal {
     padding-top:75px;
     color:white;
@@ -212,16 +219,17 @@ body{
 }
 
 .txt_1{
-    font-size:10pt;
     font-family: "Montserrat";
     font-style:italic;
+    font-size:10pt;
+    margin: 30px 0px 0px 0px;
 }
 
 .txt_2{
+    font-family: "Montserrat";
     float:right;
     font-size: 10pt;
-    font-family: "Montserrat";
-    font-style:italic;
+    margin-bottom: 30px;
 }
 
 .links{
@@ -229,6 +237,7 @@ body{
     clear:both;
     margin: 0px 30px 0px 30px;
     font-size: 10pt;
+    justify-content: space-between;
 }
 
 .subtitle{
@@ -249,19 +258,8 @@ body{
     display: block;
 }
 
-.bgGlobal{ 
-    min-height: 100vh; 
-    width: 100%;  
-    background: url('../img/background.jpg') no-repeat center;
-    background-size: 100%;
-}
-
-.text_mars{
-    font-size: 10pt;
-}
-
-.text_title{
-    font-family: "Montserrat SemiBold";
+.meet_our_team a:last-child{
+    margin-top:10px;
 }
 
 .text_mars{

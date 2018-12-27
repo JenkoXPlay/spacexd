@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
 
+
     <div class="bgGlobal">
         <div class="contentGlobal">
             
@@ -35,5 +36,9 @@
 
         </div>
     </div>
+
+
+
+
 
 <?php include('footer.php'); ?>
