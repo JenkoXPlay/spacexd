@@ -16,22 +16,21 @@
                 <p class=text_sign_mars>- SpaceXD</p>
             </div>
         
-        <div class="ticket_mars">
+            <div class="ticket_mars">
 
-            <div class="text_ticket_mars">
-                <p class="title_ticket_mars">TICKET FOR MARS</p>
+                <div class="text_ticket_mars">
+                    <p class="title_ticket_mars">TICKET FOR MARS</p>
 
-                <a class="button_ticket_mars">
-                    BUY NOW
-                </a>
+                    <a class="button_ticket_mars">
+                        BUY NOW
+                    </a>
+                </div>
+                
+                <!-- <div class="img_ticket_mars">      -->
+                    <img class="img_ticket_mars" src="img/logo_icon.svg">
+                <!-- </div>   -->
+
             </div>
-             
-            <!-- <div class="img_ticket_mars">      -->
-                <img class="img_ticket_mars" src="img/logo_icon.svg">
-            <!-- </div>   -->
-
-        </div>
-
 
         </div>
     </div>
