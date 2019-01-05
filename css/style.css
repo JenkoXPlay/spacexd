@@ -228,74 +228,146 @@ body {
     display: block;
 }
 
-.bgGlobal{ 
-    min-height: 100vh; 
-    width: 100%;  
-    background: url('../img/background.jpg') no-repeat center;
-    background-size: 100%;
+/* ------ MARS ------*/
+
+.bgGlobal {
+	min-height: 100vh;
+	width: 100%;
+	background-image: url('../img/background-desktop-mars.png');
+	background-size: cover;
 }
 
-.text_mars{
-    font-size: 10pt;
+.mars-flex {
+	display: flex;
+	flex-direction: column-reverse;
 }
 
-.text_title{
-    font-family: "Montserrat SemiBold";
+.text_mars {
+	font-size: 10pt;
 }
 
-.text_mars{
-    overflow: hidden;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.4);
-    font-family: "Montserrat";
-    font-weight: 300;
-    margin-top: 25px;
+.text_title {
+	font-family: "Montserrat SemiBold";
 }
 
-.text_content_mars{
-    font-size:12px;
+.text_mars {
+	overflow: hidden;
+	padding: 7px 12px;
+	background-color: rgba(0, 0, 0, 0.4);
+	font-family: "Montserrat";
+	font-weight: 300;
+	margin-top: 5px;
+	color: #fff;
 }
 
-.text_sign_mars{
-    font-family: "Montserrat";
-    font-style: italic;
-    float: right;
-    font-size: 12px;
+.text_content_mars {
+	font-size: 10px;
 }
 
-.ticket_mars{
-    display:flex;
-    background-color: #1E1E1E;
-    margin: 30px;
-    padding:10px;
-    align-items: flex-start;
-    justify-content: space-between;
-
+.text_sign_mars {
+	font-family: "Montserrat";
+	font-style: italic;
+	float: right;
+	font-size: 12px;
 }
 
-.title_ticket_mars{
-    font-family: "Montserrat";
-    font-weight: 700;
-    margin-bottom:10px;
+.ticket_mars {
+	display: flex;
+	background-color: #1E1E1E;
+	margin: 30px;
+	padding: 10px;
+	align-items: flex-start;
+	justify-content: space-between;
 
 }
 
-.button_ticket_mars{
-    display: inline-block;
-    font-family: "Montserrat";
-    border: 1px solid white;
-    color:white;
-    padding: 8px 20px;
-    font-size: 10px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0);
+.title_ticket_mars {
+	font-family: "Montserrat";
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.button_ticket_mars {
+	display: inline-block;
+	font-family: "Montserrat";
+	border: 1px solid white;
+	color: white;
+	padding: 8px 20px;
+	font-size: 10px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .button_ticket_mars:hover {
-    background-color: white;
-  	color: black;
+	background-color: white;
+	color: black;
 }
 
-.img_ticket_mars{
-    width: 60px;
+.img_ticket_mars {
+	width: 70px;
+}
+
+.robot_image--img {
+	display: none;
+}
+
+.ticket_image--img {
+	display: none;
+}
+
+.ticket_image--mobileimg {
+	padding: 10px 0 10px 0;
+	display: block;
+	height: 90px;
+	margin-left: 0px;
+	margin: 0 auto;
+}
+
+.mars_right {
+	position: relative;
+	height: 160px;
+	max-width: auto;
+	right: 0px;
+	top: 0px;
+	margin: 10px 20px 0 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 0 15px;
+}
+
+.mars_right img {
+	display: block;
+	position: absolute;
+	top: 10px;
+	width: 140px;
+}
+
+.mars_right ul {
+	padding: 30px 0 0 0;
+	position: relative;
+	list-style-type: none;
+	margin-left: 35%;
+}
+
+.mars_right ul li {
+	margin: 5px 0;
+	font-size: 11px;
+	font-weight: 300;
+	font-family: 'Montserrat';
+}
+
+.mars_right ul li:nth-child(4) {
+	display: none;
+}
+
+.mars_right ul li:nth-child(7) {
+	display: none;
+}
+
+.mars_right ul li:nth-child(8) {
+	display: none;
+}
+
+.mars_right ul li span {
+	font-family: 'Montserrat SemiBold';
+	font-weight: 600;
 }
